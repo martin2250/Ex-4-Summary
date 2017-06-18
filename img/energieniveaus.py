@@ -39,9 +39,9 @@ b2s, b2e = niveau(xbohr, 75, '$n = 2$', 12)
 xdirac = 40
 text(xdirac, ytext, 'Dirac')
 
-d1s, d1e = niveau(xdirac, 40-3, '$1\\rm{S}_{1/2}$')
-d2s, d2e = niveau(xdirac, 65-3, '$2\\rm{S}_{1/2}, 2\\rm{P}_{1/2}$')
-d3s, d3e = niveau(xdirac, 90-3, '$2\\rm{P}_{3/2}$')
+d1s, d1e = niveau(xdirac, 40-3, '$1\\rm{S}_{1/2}$', 18)
+d2s, d2e = niveau(xdirac, 65-3, '$2\\rm{S}_{1/2}, 2\\rm{P}_{1/2} (\\uparrow \\downarrow)$', 18)
+d3s, d3e = niveau(xdirac, 90-3, '$2\\rm{P}_{3/2} (\\uparrow \\uparrow)$', 18)
 
 connect(b1e, d1s)
 connect(b2e, d2s)
